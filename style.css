@@ -1,0 +1,73 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products-plain-studio-background_1258-54444.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    /* color: white; */
+    /* text-shadow:  6px 6px 4px #a9a5a5; */
+    text-align: center;
+    font-family: 'Rubik Moonrocks';
+    font-size: 4vmax;
+}
+.clockContainer{
+    height: 40vmax;
+    width: 40vmax;
+    margin: auto;
+    background-image:url("/Image/clock-3.png");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:100%;
+    position: relative;
+}
+
+.hour,.minute,.second{
+    position: absolute;
+    border-radius: 10px;
+    background: black;
+    transform-origin: bottom;
+}
+
+.hour{
+    height: 17%;
+    width: 1.3%;
+    top: 33.1%;
+    left: 49.20%;
+    background: #61afff;
+    border: 0.5px solid black;
+    box-shadow: 2px 2px #888888;
+}
+
+.minute{
+    height: 25%;
+    width: 1%;
+    top: 25.10%;
+    left: 49.55%;
+    background :chartreuse;
+    box-shadow: 3px 3px #888888;
+}
+
+.second{
+    /* background: #ee791a; */
+    height: 30%;
+    width: 0.8%;
+    top: 20.60%;
+    left: 49.60%; 
+    box-shadow: 3px 3px rgba(89, 87, 87, 0.321);
+}
+.circle{
+    position: absolute;
+    height: 4.8%;
+    width: 4.0%;
+    background: black;
+    border-radius: 50%;
+    top: 47.7%;
+    left: 47.9%;
+}
